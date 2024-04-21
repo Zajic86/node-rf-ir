@@ -13,7 +13,8 @@ Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receiv
 - OK Testing IR Tx on Node MCU with IRremoteESP8266 lib
 - OK Webserver
 - OK AP/HOST mode
-- Save IR codes (flash or sd?)
+- OK Save IR codes as buttons
+- OK Save IR codes as txt file
 - Open saved codes
 - Send saved codes
 - Repeat for RF 433MHz (simple rx/tx, but more modulations,freq. etc.)
