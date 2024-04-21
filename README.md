@@ -16,7 +16,8 @@ Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receiv
 - Save IR codes (flash or sd?)
 - Open saved codes
 - Send saved codes
-- Make web admin page
+- Repeat for RF 433MHz (simple rx/tx, but more modulations,freq. etc.)
+- Make beauty and user-friendly GUI for web (responsive for mobile devices of course)
 
 ## HW
 
