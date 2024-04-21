@@ -3,7 +3,7 @@
 
 Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receive, store and send codes.
 
-**/nodeIRDuplicator** : IR send and receive through webserver (connect to wifi or set as AP). First code test. All accepted codes are transformed into buttons for the possibility to duplicate individual codes and a field to insert and send your own code. 
+**/nodeIRDuplicator** : IR send and receive through webserver (connect to wifi or set as AP). First code test. All accepted codes are transformed into buttons for the possibility to duplicate individual codes and a field to insert and send your own code. Also you can save codes to txt file. 
 
 <img src="/imgs/ir-rx-tx.png">
 
