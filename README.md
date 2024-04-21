@@ -26,11 +26,11 @@ Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receiv
 
 <img src="https://components101.com/sites/default/files/component_pin/NodeMCU-ESP8266-Pinout.jpg" width="500">
 
-**IR emitting diode** (950nm tested) ==> D2 (GPIO-4)
+**IR emitting diode** (950nm tested) ==> D0 (GPIO-16)
 
 <img src="https://grobotronics.com/images/detailed/1/31enqibtuyl_grobo.jpg" width="500">
 
-**IR sensor** (KY-022/VS1838B) ==> D5 (GPIO-14)
+**IR sensor** (KY-022/VS1838B) ==> D1 (GPIO-5)
 
 <img src="https://vn-test-11.slatic.net/p/d827f1d56207f008199aec35ea7b817a.jpg" width="500">
 
@@ -46,6 +46,15 @@ I'm trying the **HC-12 SI4463** module but no luck yet
 **2.4GHz module** NRF24L01(+PA+LNA)
 
 <img src="https://europe1.discourse-cdn.com/arduino/original/4X/7/d/6/7d627f8ddd622cdda15af669ae1c7d097a0341b4.jpeg"  width="500">
+
+**Connection** - NRF24L01 x NodeMCU<br>
+VCC x 3.3V<br>
+GND x GND<br>
+CE x D4 (GPIO 2)<br>
+CSN x D2 (GPIO 4)<br>
+MOSI x D7 (GPIO 13)<br>
+MISO x D6 (GPIO 12)<br>
+SCK x D5 (GPIO 14)
 
 I still don't know if it is possible to connect these components together at once without interference. But I'm working on it
 

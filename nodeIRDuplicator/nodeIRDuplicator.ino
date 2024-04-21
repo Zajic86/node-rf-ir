@@ -12,8 +12,8 @@ const char* password = "-";
 
 ESP8266WebServer server(80);
 
-const uint16_t IR_RX_PIN = 14; // IR Rx pin
-const uint16_t IR_TX_PIN = 4; // IR Tx pin
+const uint16_t IR_RX_PIN = 16; // IR Rx pin D1
+const uint16_t IR_TX_PIN = 5; // IR Tx pin D0
 
 IRrecv irrecv(IR_RX_PIN);
 IRsend irsend(IR_TX_PIN);
