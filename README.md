@@ -14,6 +14,7 @@ Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receiv
 - OK Webserver
 - OK AP/HOST mode
 - OK Save IR codes as buttons
+- OK Send custom IR code
 - OK Save IR codes as txt file
 - Open saved codes
 - Send saved codes
