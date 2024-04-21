@@ -32,7 +32,7 @@ Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receiv
 
 **IR sensor** (KY-022/VS1838B) ==> D1 (GPIO-5)
 
-<img src="https://vn-test-11.slatic.net/p/d827f1d56207f008199aec35ea7b817a.jpg" width="500">
+<img src="https://arduinomodules.info/wp-content/uploads/KY-022_infrared_receiver_module-300x300.jpg" width="500">
 
 **433MHz receiver** XD-MK-5V (STX882 better)<br>
 **433MHz transmitter** XD-FST (SRX882 better)
