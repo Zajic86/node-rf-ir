@@ -21,7 +21,7 @@ Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receiv
 
 
 ### Core
-**NodeMCU with ESP8266**
+**NodeMCU with ESP8266** powerfull mcu
 <img src="https://components101.com/sites/default/files/component_pin/NodeMCU-ESP8266-Pinout.jpg" width="500">
 
 **IR emitting diode** (950nm tested) ==> D2 (GPIO-4)
