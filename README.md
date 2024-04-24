@@ -1,11 +1,12 @@
 # node-rf-ir 
 ***still in progress***
 
-Node MCU ESP8266 with IR Rx/Tx diode, HC-12 433MHz and NRF24L01 2.4GHz to receive, store and send codes.
+Node MCU ESP8266 with IR Rx/Tx diode and 433MHz Rx/Tx store and send codes.
 
 **/nodeIRDuplicator** : IR send and receive through webserver (connect to wifi or set as AP). First code test. All accepted codes are transformed into buttons for the possibility to duplicate individual codes and a field to insert and send your own code. Also you can save codes to txt file. 
 
 <img src="/imgs/ir-rx-tx.png">
+<img src="https://www.martinlukasek.cz/imgs/proj/irrf.jpg">
 
 ## progress
 - OK install NodeMCU drivers and connect to IDE
@@ -45,23 +46,12 @@ I'm trying the **HC-12 SI4463** module but no luck yet
 
 <img src="https://www.allaboutcircuits.com/uploads/thumbnails/HC12.jpg" width="500">
 
-**2.4GHz module** NRF24L01(+PA+LNA)
-
-<img src="https://europe1.discourse-cdn.com/arduino/original/4X/7/d/6/7d627f8ddd622cdda15af669ae1c7d097a0341b4.jpeg"  width="500">
-
-**Connection** - NRF24L01 x NodeMCU<br>
-VCC x 3.3V<br>
-GND x GND<br>
-CE x D4 (GPIO 2)<br>
-CSN x D2 (GPIO 4)<br>
-MOSI x D7 (GPIO 13)<br>
-MISO x D6 (GPIO 12)<br>
-SCK x D5 (GPIO 14)
-
-I still don't know if it is possible to connect these components together at once without interference. But I'm working on it
-
 ### other
 - Li-Ion 18650 cell
 - BMS for 18650
 - USB connector for charging
 - antennas, case
+
+my home RF remote freq.: 433.92MHz
+
+<img src="https://www.martinlukasek.cz/imgs/proj/433_1.jpg">
