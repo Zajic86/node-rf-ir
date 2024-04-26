@@ -3,7 +3,7 @@
 
 Node MCU ESP8266 with IR Rx/Tx diode and 433MHz Rx/Tx store and send codes.
 
-**/nodeIRDuplicator** : IR send and receive through webserver (connect to wifi or set as AP). First code test. All accepted codes are transformed into buttons for the possibility to duplicate individual codes and a field to insert and send your own code. Also you can save codes to txt file. 
+**/nodeIRDuplicator** : Done! IR send and receive through webserver (connect to wifi or set as AP). First code test. All accepted codes are transformed into buttons for the possibility to duplicate individual codes and a field to insert and send your own code. Also you can save codes to txt file. 
 
 <img src="/imgs/ir-rx-tx.png">
 <img src="https://www.martinlukasek.cz/imgs/proj/irrf.jpg">
@@ -46,12 +46,17 @@ I'm trying the **HC-12 SI4463** module but no luck yet
 
 <img src="https://www.allaboutcircuits.com/uploads/thumbnails/HC12.jpg" width="500">
 
+Flipper Zero uses the CC1101 chip which supports more modulations and is overall more suitable for our purposes (once I buy the module I will try it)
+<img src="https://a.allegroimg.com/original/110101/302f006e48c98353dd0f739d22af/CC1101-433MHz-bezdratovy-modul-antena" width="500">
+
 ### other
 - Li-Ion 18650 cell
 - BMS for 18650
 - USB connector for charging
 - antennas, case
 
-my home RF remote freq.: 433.92MHz
+my home RF remote freq.: 433.92MHz ASK modulation for testing
 
 <img src="https://www.martinlukasek.cz/imgs/proj/433_1.jpg">
+
+Note: Please use this and similar devices only for ethical purposes and do not abuse them
