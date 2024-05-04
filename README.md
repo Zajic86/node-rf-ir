@@ -5,8 +5,12 @@ Node MCU ESP8266 with IR Rx/Tx diode and 433MHz Rx/Tx store and send codes.
 
 **/nodeIRDuplicator** : Done! IR send and receive through webserver (connect to wifi or set as AP). First code test. All accepted codes are transformed into buttons for the possibility to duplicate individual codes and a field to insert and send your own code. Also you can save codes to txt file. 
 
-<img src="/imgs/ir-rx-tx.png">
+<img src="/imgs/ir-rx-tx.png"><br>
 <img src="https://www.martinlukasek.cz/imgs/proj/irrf.jpg">
+
+more about IR signals and IR remotes <a href="https://en.wikipedia.org/wiki/Remote_control">/wiki/Remote_control</a><br>
+more about RF controls <a href="https://en.wikipedia.org/wiki/RF_module">/wiki/RF_module</a><br>
+and more about LPD433 (Low Power Device 433MHz) <a href="https://en.wikipedia.org/wiki/LPD433">/wiki/LPD433</a>
 
 ## progress
 - OK install NodeMCU drivers and connect to IDE
@@ -47,6 +51,7 @@ I'm trying the **HC-12 SI4463** module but no luck yet
 <img src="https://www.allaboutcircuits.com/uploads/thumbnails/HC12.jpg" width="500">
 
 Flipper Zero uses the CC1101 chip which supports more modulations and is overall more suitable for our purposes (once I buy the module I will try it)
+
 <img src="https://a.allegroimg.com/original/110101/302f006e48c98353dd0f739d22af/CC1101-433MHz-bezdratovy-modul-antena" width="500">
 
 ### other
